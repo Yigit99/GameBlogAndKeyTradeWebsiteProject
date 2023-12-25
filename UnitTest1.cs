@@ -12,8 +12,8 @@ namespace oyunsitesiprojedeneme.UnitTest
 {
     public class Tests
     {
-        //-----------------------------KULLANICI İŞLEMLERİ TESTLERİ---------------------
-        // Kullanıcı Kayıt Testi
+        //-----------------------------KULLANICI ÃÃLEMLERÃ TESTLERÃ---------------------
+        // KullanÃ½cÃ½ KayÃ½t Testi
         [Test]
         public void UserSavingTest()
         {
@@ -37,7 +37,7 @@ namespace oyunsitesiprojedeneme.UnitTest
 
         }
         
-        // Kullanıcı Kaldırma Testi (fixed)
+        // KullanÃ½cÃ½ KaldÃ½rma Testi (fixed)
         [Test]
         public void UserRemoveTest()
         {
@@ -61,7 +61,7 @@ namespace oyunsitesiprojedeneme.UnitTest
 
         }
 
-        // Kullanıcı Giriş Kontrolü Testi (Fixed)
+        // KullanÃ½cÃ½ GiriÃ¾ KontrolÃ¼ Testi (Fixed)
         [Test]
         public void UsersEntranceControlTest()
         {
@@ -88,8 +88,8 @@ namespace oyunsitesiprojedeneme.UnitTest
         }
 
 
-        //------------------------------ÜRÜN İŞLEMLERİ TESTLERİ--------------------------
-        // ürün kayıt Testi
+        //------------------------------ÃœRÃœN ÃÃLEMLERÃ TESTLERÃ--------------------------
+        // Ã¼rÃ¼n kayÃ½t Testi
         [Test]
         public void ProductAddingTest() {
             //Arrange
@@ -111,7 +111,7 @@ namespace oyunsitesiprojedeneme.UnitTest
             Assert.IsTrue(sonuc);
         }
 
-        // ürün kaldırma Testi
+        // Ã¼rÃ¼n kaldÃ½rma Testi
         [Test]
         public void ProductRemovingTest()
         {
@@ -136,7 +136,7 @@ namespace oyunsitesiprojedeneme.UnitTest
             Assert.IsFalse(sonuc);
         }
 
-        // ürün veritabanından veri çekme Testi
+        // Ã¼rÃ¼n veritabanÃ½ndan veri Ã§ekme Testi
         [Test]
         public void ProductGetFromDatabaseTest()
         {
@@ -151,7 +151,7 @@ namespace oyunsitesiprojedeneme.UnitTest
             Assert.IsNotNull(result);
         }
 
-        // ürün verilen id'ye göre veri seçme Testi
+        // Ã¼rÃ¼n verilen id'ye gÃ¶re veri seÃ§me Testi
         [Test]
         public void BucketGetFromDatabaseTest()
         {
